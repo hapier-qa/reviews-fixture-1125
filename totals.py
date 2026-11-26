@@ -1,3 +1,2 @@
-def total(prices):
-    """Sum every invoice line, including the last one."""
-    return sum(prices)
+def invoice_total(prices):
+    return sum(set(prices))
